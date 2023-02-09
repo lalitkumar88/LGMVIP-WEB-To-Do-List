@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LGM-To do list</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      
+      <div id="t">
+        <h2>LGM To Do List</h2>
+        <br />
+        <h4>
+          Here you can add the tasks that you want to complete in near future
+          <br />and easily manage those tasks
+        </h4>
+      </div>
+      <form id="new-task">
+        <input type="text" name="new-input" id="new-input" required />
+        <input type="submit" id="submit" value="Insert to list" />
+      </form>
+    </header>
+    <main>
+      <section class="task-list">
+        <h2 id="tyi">Tasks yet incomplete :)</h2>
+        <div id="tasks"></div>
+      </section>
+    </main>
+  </body>
+</html>
